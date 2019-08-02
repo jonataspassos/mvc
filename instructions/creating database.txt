@@ -1,0 +1,15 @@
+ISQL Version: WI-V2.5.1.26351 Firebird 2.5
+Use CONNECT or CREATE DATABASE to specify a database
+SQL> create database 'H:\MVC.fbd' page_size
+CON> user 'SYSDBA' password 'masterkey';
+Statement failed, SQLSTATE = 42000
+SQL error code = -104
+-Token unknown
+-USER
+SQL> create database 'H:\MVC.fbd' page_size 8192
+CON> user 'SYSDBA' password 'masterkey';
+Server version:
+WI-V2.5.1.26351 Firebird 2.5
+WI-V2.5.1.26351 Firebird 2.5/XNet (DESKTOP-HH9ACKN)/P12
+WI-V2.5.1.26351 Firebird 2.5/XNet (DESKTOP-HH9ACKN)/P12
+SQL> quit;
